@@ -110,7 +110,7 @@ const getAndConfirmProps = (parent, type, props = {}) => {
 };
 
 beforeAll(() => {
-    global.STORE_NAME = 'Venia';
+    global.STORE_NAME = 'TechDivision PWA demo';
 });
 
 afterAll(() => window.location.reload.mockRestore());

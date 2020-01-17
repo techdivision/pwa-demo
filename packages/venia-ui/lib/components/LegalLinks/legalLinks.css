@@ -1,0 +1,19 @@
+.root {
+    padding: 10px;
+    list-style: none outside none;
+    margin: 0;
+    text-align: center;
+}
+
+.root li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.root a {
+    color: #888;
+}
+
+.root a:hover {
+    color: #000;
+}

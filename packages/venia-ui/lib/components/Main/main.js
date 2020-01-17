@@ -6,6 +6,7 @@ import { mergeClasses } from '../../classify';
 import Footer from '../Footer';
 import Header from '../Header';
 import defaultClasses from './main.css';
+import TopBar from '../TopBar';
 
 const Main = props => {
     const { children, isMasked } = props;
@@ -18,6 +19,7 @@ const Main = props => {
 
     return (
         <main className={rootClass}>
+            <TopBar />
             <Header />
             <div className={pageClass}>{children}</div>
             <Footer />
